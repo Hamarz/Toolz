@@ -42,7 +42,7 @@ int main()
     cin>>str;
     cin.ignore();
     cout<<"\nEnter Strength % modifier x.xxxx: ";
-    cin>>str;
+    cin>>strm;
     cin.ignore();
 
     cout<<"\nEnter Agility Start: ";
