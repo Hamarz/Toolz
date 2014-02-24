@@ -44,7 +44,6 @@ int main()
     cout<<"\nBase mana start value: ";
     cin>>bm;
     cin.ignore();
-
     cout<<"Mana % modifier(~0.08438) value: ";
     cin>>bmm;
     cin.ignore();
