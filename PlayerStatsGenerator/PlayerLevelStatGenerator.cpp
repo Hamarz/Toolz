@@ -74,7 +74,7 @@ int main()
     cin.ignore();
 
     ofstream SQLfile;
-        SQLfile.open ("Player_Level_Stats.sql");
+        SQLfile.open ("Player_LevelStats.sql");
         SQLfile << "REPLACE INTO `player_levelstats` (`race`, `class`, `level`, `str`, `agi`, `sta`, `inte`, `spi`) VALUES\n";
         SQLfile <<"\n-- Race "<< race <<" Class "<< cclass <<" levels: "<< lvls <<"-"<< lvle <<"";
 
